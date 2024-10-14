@@ -17,6 +17,6 @@ RUN venv/bin/pip install --upgrade pip && \
 # Sao chép mã nguồn của ứng dụng vào container
 COPY . .
 
-# Lệnh chạy ứng dụng
+
 CMD ["venv/bin/python", "flask_docker.py"]
 
